@@ -1,0 +1,8 @@
+header {
+  background-color: var(--header-back-color);
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+}

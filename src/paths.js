@@ -1,7 +1,11 @@
-const urlPrefix = "/tg-miniapp";
-
 export const paths = {
-  Home: urlPrefix + "/",
+  Home: "/",
   NotFound: "*",
-  Basket: urlPrefix + "/basket",
+  Basket: "/basket",
+  ShopManagement: "/shop-management",
+  UserShops: "/user-shops",
+  Shop: "/shop",
+  ShopDetails: "/shop/:id",
+  ShopSettings: "/shop-settings",
+  UserSettings: "/settings",
 };

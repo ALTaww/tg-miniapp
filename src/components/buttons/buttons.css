@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  width: min(100%, 170px);
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.settings-button {
+  background-color: aliceblue;
+  color: black;
+}
+
+.classic-button {
+  background-color: #489cff;
+  color: white;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+}
