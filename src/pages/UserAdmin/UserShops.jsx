@@ -3,10 +3,11 @@ import ComponentHeader from "../../components/ComponentHeader";
 import ShopCard from "../../components/UserAdmin/ShopCard";
 import "./userAdmin.css";
 import WhiteButton from "../../components/buttons/WhiteButton";
+import { paths } from "../../paths";
 
 const UserShops = () => {
   return (
-    <div className="shop-cards-body">
+    <div className="shop-cards-body container">
       <ComponentHeader>Мои магазины</ComponentHeader>
       <div className="shop-cards">
         <ShopCard
@@ -20,9 +21,12 @@ const UserShops = () => {
           industry="shops"
         />
       </div>
-      <div className="new-shop">
+
+      <div className="new-shop center-block">
         <h3>Новый Магазин</h3>
-        <WhiteButton className="fullwidth">Build</WhiteButton>
+        <WhiteButton path={paths.NewShop} className="fullwidth">
+          Build
+        </WhiteButton>
       </div>
     </div>
   );

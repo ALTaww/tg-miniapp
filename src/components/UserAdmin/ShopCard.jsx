@@ -6,13 +6,14 @@ import SettingsButton from "../buttons/SettingsButton";
 import ClassicButton from "../buttons/ClassicButton";
 import { Col, Row } from "react-bootstrap";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { imageSizes } from "../../utils/consts";
 
 const ShopCard = (props) => {
   return (
     <div className="shop-card">
       <div className="content">
         <div className="portrait">
-          <img src={shopImage} alt={"img"} />
+          <img src={shopImage} alt={"img"} className={imageSizes.small} />
           <div className="description">
             <span className="name">{props.name}</span>
             <span

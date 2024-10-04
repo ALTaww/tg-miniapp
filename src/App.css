@@ -12,6 +12,12 @@ html {
   --hover-color: orange;
   --header-back-color: white;
   --accent-color: #007aff;
+
+  --img-smallest: 32px;
+  --img-small: 64px;
+  --img-middle: 128px;
+  --img-big: 256px;
+  --img-biggest: 512px;
 }
 
 body {
@@ -30,4 +36,42 @@ a:hover {
 
 .fullwidth {
   width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.center-block {
+  margin: 0 auto;
+}
+
+.img-smallest {
+  width: var(--img-smallest);
+  height: var(--img-smallest);
+}
+
+.img-small {
+  width: var(--img-small);
+  height: var(--img-small);
+}
+
+.img-middle {
+  width: var(--img-middle);
+  height: var(--img-middle);
+}
+
+.img-big {
+  width: var(--img-big);
+  height: var(--img-biggest);
+}
+
+.img-biggest {
+  width: var(--img-biggest);
+  height: var(--img-biggest);
+}
+
+.component-header {
+  text-align: center;
 }
