@@ -7,6 +7,7 @@ import ShopManagement from "./pages/UserAdmin/ShopManagement";
 import Shop from "./pages/Shop";
 import ShopDetails from "./pages/ShopDetails";
 import ShopSettings from "./pages/ShopSettings";
+import newShop from "./pages/UserAdmin/newShop";
 
 export const routes = [
   {
@@ -40,5 +41,9 @@ export const routes = [
   {
     path: paths.ShopSettings,
     Component: ShopSettings,
+  },
+  {
+    path: paths.NewShop,
+    Component: newShop,
   },
 ];

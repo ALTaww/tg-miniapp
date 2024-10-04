@@ -18,3 +18,11 @@ export const headerCarousels = {
   3: HeaderCarousel_3,
   undefined: HeaderCarousel_1,
 };
+
+export const imageSizes = {
+  smallest: "img-smallest",
+  small: "img-small",
+  middle: "img-middle",
+  big: "img-big",
+  biggest: "img-biggest",
+};

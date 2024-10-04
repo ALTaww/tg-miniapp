@@ -1,13 +1,18 @@
+:root {
+  --card-max-width: 390px;
+}
+
 .shop-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 24px;
+  justify-content: center;
 }
 
 .shop-card {
   background-color: white;
-  width: min(390px, 100%);
+  width: min(var(--card-max-width), 100%);
 }
 
 .shop-card .content {
@@ -41,7 +46,7 @@
 
 .new-shop {
   background-color: var(--accent-color);
-  width: 100%;
+  width: min(var(--card-max-width), 100%);
   padding: 2rem;
   text-align: center;
   color: var(--alternative-text-color);
