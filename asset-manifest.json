@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tg-miniapp/static/css/main.35d67fef.css",
-    "main.js": "/tg-miniapp/static/js/main.c776087f.js",
+    "main.css": "/tg-miniapp/static/css/main.0c751cc6.css",
+    "main.js": "/tg-miniapp/static/js/main.a4ede4b6.js",
     "static/media/bootstrap-icons.woff?": "/tg-miniapp/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/tg-miniapp/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/img.jpg": "/tg-miniapp/static/media/img.884b8b0641a2b657a4ca.jpg",
     "index.html": "/tg-miniapp/index.html",
-    "main.35d67fef.css.map": "/tg-miniapp/static/css/main.35d67fef.css.map",
-    "main.c776087f.js.map": "/tg-miniapp/static/js/main.c776087f.js.map"
+    "main.0c751cc6.css.map": "/tg-miniapp/static/css/main.0c751cc6.css.map",
+    "main.a4ede4b6.js.map": "/tg-miniapp/static/js/main.a4ede4b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.35d67fef.css",
-    "static/js/main.c776087f.js"
+    "static/css/main.0c751cc6.css",
+    "static/js/main.a4ede4b6.js"
   ]
 }
