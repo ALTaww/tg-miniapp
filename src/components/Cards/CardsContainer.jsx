@@ -6,24 +6,20 @@ import Col from "react-bootstrap/Col";
 
 const CardsContainer = ({ Card }) => {
   return (
-    <Container>
-      <Row>
-        <Col className="col-6">
+    <Row
+      sm={2}
+      md={3}
+      lg={4}
+      xl={5}
+      xxl={6}
+      className="row-cols-2 row-cols-xs-2 g-sm-4"
+    >
+      {Array.from({ length: 6 }).map((_, idx) => (
+        <Col key={idx}>
           <Card />
         </Col>
-        <Col className="col-6">
-          <Card />
-        </Col>
-      </Row>
-      <Row>
-        <Col className="col-6">
-          <Card />
-        </Col>
-        <Col className="col-6">
-          <Card />
-        </Col>
-      </Row>
-    </Container>
+      ))}
+    </Row>
   );
 };
 

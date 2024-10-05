@@ -2,6 +2,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -32,6 +33,12 @@ a {
 
 a:hover {
   color: var(--hover-color);
+}
+
+footer {
+  margin-top: 20px;
+  background-color: var(--header-back-color);
+  color: var(--text-color);
 }
 
 .fullwidth {

@@ -25,6 +25,7 @@ const Home = () => {
           marginBottom: "10px",
           display: "flex",
           justifyContent: "space-around",
+          flexWrap: "wrap",
         }}
       >
         <Button
@@ -50,6 +51,7 @@ const Home = () => {
         style={{
           display: "flex",
           justifyContent: "space-around",
+          flexWrap: "wrap",
         }}
       >
         <Button

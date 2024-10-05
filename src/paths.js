@@ -9,4 +9,5 @@ export const paths = {
   ShopSettings: "/shop-settings",
   UserSettings: "/settings",
   NewShop: "/new-shop",
+  Test: "/test",
 };

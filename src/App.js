@@ -7,8 +7,16 @@ import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
+import { useEffect } from "react";
+import { useTelegram } from "./hooks/useTelegram";
 
 function App() {
+  const { tg } = useTelegram();
+
+  useEffect(() => {
+    tg.ready();
+  }, []);
+
   return (
     <BrowserRouter basename="tg-miniapp">
       <Header />

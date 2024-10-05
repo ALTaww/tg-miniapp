@@ -8,6 +8,7 @@ import Shop from "./pages/Shop";
 import ShopDetails from "./pages/ShopDetails";
 import ShopSettings from "./pages/ShopSettings";
 import newShop from "./pages/UserAdmin/newShop";
+import Test from "./pages/Test/Test";
 
 export const routes = [
   {
@@ -45,5 +46,9 @@ export const routes = [
   {
     path: paths.NewShop,
     Component: newShop,
+  },
+  {
+    path: paths.Test,
+    Component: Test,
   },
 ];

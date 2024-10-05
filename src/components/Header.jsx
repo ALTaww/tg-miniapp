@@ -7,8 +7,10 @@ import { paths } from "../paths";
 import { Link } from "react-router-dom";
 import { Offcanvas } from "react-bootstrap";
 import "./header.css";
+import { useTelegram } from "../hooks/useTelegram";
 
 const Header = () => {
+  const { user, onClose } = useTelegram();
   const [isShowOffcanvas, setIsShowOffcanvas] = useState(false);
   const closeOffcanvas = () => setIsShowOffcanvas(false);
 
@@ -18,7 +20,9 @@ const Header = () => {
         <Container>
           <Link className="nav-link" to={paths.UserShops}>
             <i class="bi bi-person-circle"></i>
-            Имя фамилия
+            <span className="name">
+              {user?.username ? user?.username : `Имя фамилия`}
+            </span>
           </Link>
           {/* <Link className="navbar-brand" to={paths.Home}>
             Наш Брэнд
@@ -40,6 +44,9 @@ const Header = () => {
               </Link>
               <Link to={paths.ShopManagement} onClick={closeOffcanvas}>
                 Shop Management
+              </Link>
+              <Link to={paths.Test} onClick={closeOffcanvas}>
+                Test
               </Link>
             </Offcanvas.Body>
           </Offcanvas>
